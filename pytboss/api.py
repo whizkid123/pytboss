@@ -85,7 +85,10 @@ class StateDict(TypedDict, total=False):
 
     primeState: bool
     """Whether the prime mode is on."""
-
+    
+    moduleIsOn: bool
+    """Whether the power mode is on."""
+    
     isFahrenheit: bool
     """Whether the temperature readings are in Fahrenheit."""
 
@@ -260,6 +263,10 @@ class PitBoss:
     async def turn_grill_off(self) -> dict:
         """Turns the grill off."""
         return await self._send_command("turn-off")
+        
+    async def turn_grill_on(self) -> dict:
+        """Turns the grill on."""
+        return await self._send_command("turn-on")
 
     async def turn_primer_motor_on(self) -> dict:
         """Turns the primer motor on."""
