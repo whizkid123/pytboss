@@ -2155,6 +2155,18 @@
           "deleted_at": null,
           "description": null,
           "function": null,
+          "hexadecimal": "FE0101FF",
+          "id": 22,
+          "name": "Turn Grill On",
+          "slug": "turn-on",
+          "updated_at": null
+        },
+        {
+          "control_board_id": 3,
+          "created_at": null,
+          "deleted_at": null,
+          "description": null,
+          "function": null,
           "hexadecimal": "FE0800FF",
           "id": 23,
           "name": "Turn Primer Motor Off",
@@ -4582,6 +4594,18 @@
           "deleted_at": null,
           "description": null,
           "function": null,
+          "hexadecimal": "FE0101FF",
+          "id": 34,
+          "name": "Turn Grill On",
+          "slug": "turn-on",
+          "updated_at": null
+        },		
+        {
+          "control_board_id": 1,
+          "created_at": null,
+          "deleted_at": null,
+          "description": null,
+          "function": null,
           "hexadecimal": "FE0800FF",
           "id": 35,
           "name": "Turn Primer Motor Off",
@@ -6359,6 +6383,18 @@
           "slug": "turn-off",
           "updated_at": null
         },
+		{
+          "control_board_id": 3,
+          "created_at": null,
+          "deleted_at": null,
+          "description": null,
+          "function": null,
+          "hexadecimal": "FE0101FF",
+          "id": 22,
+          "name": "Turn Grill On",
+          "slug": "turn-on",
+          "updated_at": null
+        },
         {
           "control_board_id": 3,
           "created_at": null,
@@ -7854,6 +7890,18 @@
           "id": 21,
           "name": "Turn Grill Off",
           "slug": "turn-off",
+          "updated_at": null
+        },
+        {
+          "control_board_id": 3,
+          "created_at": null,
+          "deleted_at": null,
+          "description": null,
+          "function": null,
+          "hexadecimal": "FE0101FF",
+          "id": 22,
+          "name": "Turn Grill On",
+          "slug": "turn-on",
           "updated_at": null
         },
         {
@@ -14270,6 +14318,18 @@
           "id": 21,
           "name": "Turn Grill Off",
           "slug": "turn-off",
+          "updated_at": null
+        },
+        {
+          "control_board_id": 3,
+          "created_at": null,
+          "deleted_at": null,
+          "description": null,
+          "function": null,
+          "hexadecimal": "FE0101FF",
+          "id": 21,
+          "name": "Turn Grill On",
+          "slug": "turn-on",
           "updated_at": null
         },
         {
